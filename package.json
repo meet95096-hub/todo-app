@@ -1,0 +1,10 @@
+{
+  "name": "aura-todo-workspace",
+  "version": "1.0.0",
+  "description": "Root workspace package.json forwarding commands to specific projects",
+  "scripts": {
+    "dev": "npm run dev --prefix react-todo",
+    "build": "npm run build --prefix react-todo",
+    "preview": "npm run preview --prefix react-todo"
+  }
+}
